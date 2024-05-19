@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThunderCats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="header">
+        <img src="./img/logo-Snaff.png" alt="logo Snaff">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale Conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo-thundercats.png" alt="Logo thundercats" class="logo-thundercats">
+            <h2 class="informação">Os Thundercats podem nos inspirar no nosso cotidiano de várias maneiras:</h2>
+            <br>
+            <p> Trabalho em equipe: Assim como os Thundercats trabalham juntos para enfrentar desafios, podemos colaborar com colegas e amigos para alcançar objetivos comuns no trabalho, na escola ou em projetos pessoais.</p>
+            <br>
+            <p> Coragem: Lion-O e seus companheiros enfrentam perigos com bravura. Podemos nos inspirar em sua coragem para enfrentar nossos próprios medos e desafios, buscando soluções e superando obstáculos.</p>
+            <br>   
+            <p> Determinação: Os Thundercats nunca desistem, mesmo diante das dificuldades. Podemos adotar essa mentalidade resiliente em nossas vidas, persistindo em nossos esforços mesmo quando as coisas parecem difíceis.</p>
+            <br> 
+            <p> Liderança: Lion-O lidera os Thundercats com sabedoria e compaixão. Podemos aprender com ele a ser líderes em nossas próprias vidas, motivando e inspirando aqueles ao nosso redor.</p>
+            <br>   
+            <p> Habilidade de adaptação: Os Thundercats enfrentam constantes mudanças e desafios em Thundera. Podemos nos inspirar em sua capacidade de se adaptar a novas situações e aprender com elas, sendo flexíveis e abertos a mudanças em nossas próprias vidas.</p>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=555555555555&text=Somos%20os%20ThunderCats!%20como%20podemos%20te%20ajudar?"
+                target="_blank" class="link-whatsapp">
+                <img src="./img/olhoThundera.png" alt="Link para whatsapp">
+            </a>
+
+            <button onclick="mostrarform()">ENTRE EM CONTATO</button>
+        </div>
+
+        <div>
+            <img src="./img/os-ThunderCats.png" alt="os ThunderCats" class="imagem-ThunderCats">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+
+        <div class="mascara"></div>
+
+    </div>
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/PVaALMRIBuG" method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Seu Nome" type="text" name="nome">
+        <input placeholder="Seu Telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+    </form>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
